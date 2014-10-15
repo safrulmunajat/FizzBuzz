@@ -57,11 +57,8 @@
 					$c = 0;
 					while ($c < 100) {
 						$c = $c + 1;
-						if ($c % 3 == 0) {
-							echo "Fizz"."<br>";
-						}
-						elseif ($c % 5 == 0) {
-							echo "Buzz"."<br>";
+						if ($c % 3 == 0 && $c % 5 == 0) {
+							echo "FizzBuzz"."<br>";
 						}
 						else
 						{
