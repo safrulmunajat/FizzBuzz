@@ -6,6 +6,12 @@
 		elseif (strpos($i,'5', 0)!== false) {
 			echo "Buzz"."<br>";
 		}
+		elseif ($i % 3 == 0) {
+			echo "Fizz"."<br>";
+		}
+		elseif ($i % 5 == 0) {
+			echo "Buzz"."<br>";
+		}
 		else
 		{
 			echo $i."<br>";
